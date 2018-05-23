@@ -3,8 +3,8 @@
 <html>
 <head>
     <title>Title</title>
-    <script type="text/javascript" src="jquery-1.9.0.min.js"></script>
-    <script type="text/javascript" src="login.js"></script>
+    <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
     <link href="css/css1.css" rel="stylesheet" type="text/css" />
 
 </head>
