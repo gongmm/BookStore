@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="css/INDEX.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/Cart.js"></script>
+</head>
+<body>
+
+ <div class="container">
+  <header>
+    
+     <nav class="secondary_header" id="menu">
+      <ul>
+        <li><a href="网设大作业.html">首页</a></li>
+        <li><a href="">搜索书籍</a></li>
+        <li><a href="">个人中心</a></li>
+        <li><a href="">历史订单</a></li>
+        <li><a href="">售后服务</a></li>
+        <li><a href=""></a>购物车</li>
+      </ul>
+    </nav>
+  </header>
+   <br>	
+
+<div id="main">
+    <div>&nbsp;&nbsp;<img src="images/shopping_myshopping.gif" alt="shopping"/></div>
+    <div class="shopping_list_top">您已选购以下商品</div><br>
+    <div class="shopping_list_border">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr class="shopping_list_title">
+                <td class="shopping_list_title_1">商品名</td>
+                <td class="shopping_list_title_2">单品积分</td>
+                <td class="shopping_list_title_3">市场价</td>
+                <td class="shopping_list_title_4">折扣价</td>
+                <td class="shopping_list_title_5">数量</td>
+                <td class="shopping_list_title_6">删除</td>
+            </tr>
+        </table>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" id="myTableProduct">
+            <tr class="shopping_product_list" id="shoppingProduct_01">
+                <td class="shopping_product_list_1"><a href="#" class="blue">私募（首部披露资本博弈秘密的金融...</a></td>
+                <td class="shopping_product_list_2"><label>189</label></td>
+                <td class="shopping_product_list_3">￥<label>32.00</label></td>
+                <td class="shopping_product_list_4">￥<label>18.90 </label>(59折)</td>
+                <td class="shopping_product_list_5"><input type="text" value="1"/></td>
+                <td class="shopping_product_list_6"><a href="javascript:void(0)" class="blue">删除</a></td>
+            </tr>
+            <tr class="shopping_product_list" id="shoppingProduct_02">
+                <td class="shopping_product_list_1"><a href="#" class="blue"> 小团圆（张爱玲最神秘小说遗稿）</a></td>
+                <td class="shopping_product_list_2"><label>173</label></td>
+                <td class="shopping_product_list_3">￥<label>28.00</label></td>
+                <td class="shopping_product_list_4">￥<label>17.30</label>(62折)</td>
+                <td class="shopping_product_list_5"><input type="text" value="1"/></td>
+                <td class="shopping_product_list_6"><a href="javascript:void(0)" class="blue">删除</a></td>
+            </tr>
+            <tr class="shopping_product_list" id="shoppingProduct_03">
+                <td class="shopping_product_list_1"><a href="#" class="blue">不抱怨的世界(畅销全球80国的世界...</a></td>
+                <td class="shopping_product_list_2"><label>154</label></td>
+                <td class="shopping_product_list_3">￥<label>24.80</label></td>
+                <td class="shopping_product_list_4">￥<label>15.40</label> (62折)</td>
+                <td class="shopping_product_list_5"><input type="text" value="2"/></td>
+                <td class="shopping_product_list_6"><a href="javascript:void(0)" class="blue">删除</a></td>
+            </tr>
+            <tr class="shopping_product_list" id="shoppingProduct_04">
+                <td class="shopping_product_list_1"><a href="#" class="blue">福玛特双桶洗衣机XPB20-07S</a></td>
+                <td class="shopping_product_list_2"><label>358</label></td>
+                <td class="shopping_product_list_3">￥<label>458.00</label></td>
+                <td class="shopping_product_list_4">￥<label>358.00</label> (78折)</td>
+                <td class="shopping_product_list_5"><input type="text" value="1"/></td>
+                <td class="shopping_product_list_6"><a href="javascript:void(0)" class="blue">删除</a></td>
+            </tr>
+            <tr class="shopping_product_list" id="shoppingProduct_05">
+                <td class="shopping_product_list_1"><a href="#" class="blue">PHP和MySQL Web开发 （原书第4版）</a></td>
+                <td class="shopping_product_list_2"><label>712</label></td>
+                <td class="shopping_product_list_3">￥<label>95.00</label></td>
+                <td class="shopping_product_list_4">￥<label>71.20</label> (75折)</td>
+                <td class="shopping_product_list_5"><input type="text" value="1"/></td>
+                <td class="shopping_product_list_6"><a href="javascript:void(0)" class="blue">删除</a></td>
+            </tr>
+            <tr class="shopping_product_list" id="shoppingProduct_06">
+                <td class="shopping_product_list_1"><a href="#" class="blue">法布尔昆虫记</a></td>
+                <td class="shopping_product_list_2"><label>10</label></td>
+                <td class="shopping_product_list_3">￥<label>198.00</label></td>
+                <td class="shopping_product_list_4">￥<label>130.70</label> (66折)</td>
+                <td class="shopping_product_list_5"><input type="text" value="1"/></td>
+                <td class="shopping_product_list_6"><a href="javascript:void(0)" class="blue">删除</a></td>
+            </tr>
+        </table>
+        <div class="shopping_list_end">
+            <div><a id="removeAllProduct" href="javascript:void(0);">清空购物车</a></div>
+            <ul>
+                <li class="shopping_list_end_1"><input name="" type="image" src="images/shopping_balance.gif"/></li>
+                <li class="shopping_list_end_2">￥<label id="product_total"></label></li>
+                <li class="shopping_list_end_3">商品金额总计：</li>
+                <li  class="shopping_list_end_4">您共节省金额：￥<label class="shopping_list_end_yellow" id="product_save"></label><br/>
+                    可获商品积分：<label class="shopping_list_end_yellow" id="product_integral"></label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+   <br><br>
+
+  <div class="copyright">&copy;2018 - <strong>BookStore</strong></div>
+</div>
+</body>
+</html>
