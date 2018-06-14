@@ -14,7 +14,7 @@ a:active {
 
 .atc{	padding-left: 10%;
 	padding-right: 10%;}
-a:link {color: white}
+a:link {color: white}               
 a:visited {color: white}
 .container {
 	background-color: #FFFFFF;
@@ -79,7 +79,6 @@ a:visited {color: white}
 	padding-bottom: 50px;
 	background-color: #336699;
 	clear: left;
-	color:#FFFFFF;
 }
 .container .secondary_header ul {
 	margin-top: 0%;
@@ -463,7 +462,9 @@ body {
 	cursor: pointer;
 	opacity: 0.5;
 }
-/*购物车页面样式开始*/
+#myTableProduct a{
+	color: black;
+}
 .shopping_commend{
     background-image:url(../images/shopping_commend_bg.gif);
     background-repeat:repeat-x;
@@ -615,7 +616,7 @@ body {
 }
 .shopping_list_end{
     background-color:#cddbb8;
-    height:84px;
+    height:100px;
 }
 .shopping_list_end li{
     float:right;
@@ -648,19 +649,5 @@ body {
     margin-left:20px;
     color:#1965B3;
 }
-.empty_product{
-    height:300px;background:#d3d3d3;font-size:16px;text-align:center;position:relative;
-}
-.empty_product div{
-    padding-top:120px;
-}
-.empty_product a{
-    color:#1965B3;
-}
-#myTableProduct a{
-	color: black;
-}
-
-
 #menu {
 }
